@@ -1,0 +1,8 @@
+# Internal deployment config for Lenovo GPU nodes (simulated).
+# Consumed by custom_inference.load_inference_config
+
+model_name_or_path: "meta-llama/Llama-3-8B-Instruct"
+adapter_name_or_path: ""
+max_new_tokens: 1024
+temperature: 0.6
+internal_endpoint: "http://10.121.218.148:8000"

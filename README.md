@@ -993,3 +993,9 @@ If this work is helpful, please kindly cite as:
 ## Acknowledgement
 
 This repo benefits from [PEFT](https://github.com/huggingface/peft), [TRL](https://github.com/huggingface/trl), [QLoRA](https://github.com/artidoro/qlora) and [FastChat](https://github.com/lm-sys/FastChat). Thanks for their wonderful works.
+
+## Internal Notes (Lenovo custom fork)
+
+- Custom modules: `custom_inference.py`, `custom_benchmark.py`
+- Deployment config: `configs/custom_lenovo_deploy.yaml`
+- Sync verification: `bash scripts/verify.sh`
